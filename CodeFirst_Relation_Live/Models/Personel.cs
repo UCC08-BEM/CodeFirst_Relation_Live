@@ -11,6 +11,8 @@ namespace CodeFirst_Relation_Live.Models
 
         public virtual Department Departments { get; set; }
 
+        public virtual City Cities { get; set; }
+
         public ICollection<Order> Orders { get; set; }
 
     }

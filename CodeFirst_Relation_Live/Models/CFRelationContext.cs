@@ -20,6 +20,9 @@ namespace CodeFirst_Relation_Live.Models
         public virtual DbSet<Personel> Personels { get; set; } // Category sınıfından Categories isimli bir tabloyu ifade ediyor
         public virtual DbSet<Department> Departments { get; set; } // Category sınıfından Categories isimli bir tabloyu ifade ediyor
 
+        public virtual DbSet<City> Cities { get; set; }
+
+
 
     }
 }

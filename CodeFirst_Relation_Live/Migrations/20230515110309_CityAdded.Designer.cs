@@ -3,6 +3,7 @@ using CodeFirst_Relation_Live.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CodeFirst_Relation_Live.Migrations
 {
     [DbContext(typeof(CFRelationContext))]
-    partial class CFRelationContextModelSnapshot : ModelSnapshot
+    [Migration("20230515110309_CityAdded")]
+    partial class CityAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
